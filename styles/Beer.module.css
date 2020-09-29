@@ -1,0 +1,5 @@
+.beer__poster {
+  object-fit: contain;
+  max-height: 100px;
+  width: 100%;
+}
