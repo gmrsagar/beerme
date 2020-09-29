@@ -1,0 +1,5 @@
+.banner__poster {
+  object-fit: contain;
+  max-height: 400px;
+  width: 100%;
+}

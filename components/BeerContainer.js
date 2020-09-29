@@ -21,13 +21,13 @@ const BeerContainer = () => {
     <div className="container">
       <div className="row">
         {beers.map((beer) => (
-          // console.log(beer)
           <Beer
             key={beer.id}
             name={beer.name}
             tagline={beer.tagline}
             thumbnail={beer.image_url}
             description={beer.description}
+            id={beer.id}
           />
         ))}
       </div>
